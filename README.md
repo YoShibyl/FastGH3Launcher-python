@@ -31,9 +31,13 @@ If your guitar controller's inputs aren't working as intended (such as a CRKD gu
 
 If you're on Linux, you'll also need to add this prefix to the beginning of the launch command in order to load the DLL: `WINEDLLOVERRIDES="xinput1_3=n" `
 
+## Building
+*soon™*
+
 ## Credit the Creators
 - [ttkbootstrap](https://github.com/israel-dryer/ttkbootstrap) is the library used for enhancing the UI
 - [PyInstaller](https://pyinstaller.org/en/stable/) is used for compiling single-file binaries for release
 - [donnaken15](https://github.com/donnaken15) : Maker of [FastGH3](https://github.com/donnaken15/FastGH3)
 - [mdsitton](https://github.com/mdsitton) : Clone Hero developer who made [the `.sng` format](https://github.com/mdsitton/SngFileFormat)
 - Neversoft / Aspyr : Makers of the original *Guitar Hero III* PC port
+- Not sure who made the `xinput1_3.dll` file, but it was taken from BetterGH3's optional fixes folder
